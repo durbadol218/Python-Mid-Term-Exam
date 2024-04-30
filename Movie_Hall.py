@@ -42,7 +42,7 @@ class Hall(Star_Cinema):
                 for row in range(self.rows):
                     for col in range(self.cols):
                         if self._seats[show_id][row][col] == 0:
-                            print(f"Seat: ({row+1},{col+1})")
+                            print(f"Seat: ({row},{col})")
             else:
                 print("Invalid Show ID.")
     
